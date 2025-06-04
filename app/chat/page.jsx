@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([
-    { role: "system", content: "Hola, spy el asistente virtual de awaq." },
+    { role: "system", content: "Hola, soy el asistente virtual de awaq." },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
